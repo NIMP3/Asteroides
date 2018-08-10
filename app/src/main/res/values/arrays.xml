@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--============================================================================================
+    Array para los tipos de gráficos-->
+    <string-array name="typeGraphics">
+        <item>vectorial</item>
+        <item>bitmap</item>
+        <item>3D</item>
+    </string-array>
+    <!--============================================================================================
+    Array para los valores de referencia de los tipos de gráficos-->
+    <string-array name="typeGraphicsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!--============================================================================================
+    Array para los tipos de conexión-->
+    <string-array name="typeConnection">
+        <item>Bluetooth</item>
+        <item>Wi-fi</item>
+        <item>Internet</item>
+    </string-array>
+    <!--============================================================================================
+    Array para los valores de referencia de los tipos de conexión-->
+    <string-array name="typeConnectionValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

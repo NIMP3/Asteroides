@@ -9,4 +9,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="text_description_app">Este programa ha sido desarrollado como ejemplo en el curso de el gran libro de Android</string>
     <string name="text_developer_name">EDWIN YOVANY</string>
+    <string name="text_settings_music">Reproducir música</string>
+    <string name="text_settings_sumary_music">Se reprodude música de fondo</string>
+    <string name="text_title_settings_graphics">Tipo de gráficos</string>
+    <string name="text_settings_summary_graphics">Se escoge la representación de gráficos</string>
+    <string name="text_settings_title_fragments">Número de fragmentos</string>
+    <string name="text_settings_summary_fragments">En cuantos trozos se divide un asteroide</string>
+    <string name="text_settings_category_multiplayer">Modo multijugador</string>
+    <string name="text_settings_title_multiplayer">Activar modo multijugador</string>
+    <string name="text_settings_title_maxPlayers">Máximo de Jugadores</string>
+    <string name="text_settings_title_typeconnection">Tipo de conexión</string>
 </resources>

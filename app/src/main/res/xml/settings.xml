@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="principal_settings">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="music"
+        android:summary="@string/text_settings_sumary_music"
+        android:title="@string/text_settings_music" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/typeGraphics"
+        android:entryValues="@array/typeGraphicsValues"
+        android:key="graphics"
+        android:summary="@string/text_settings_summary_graphics"
+        android:title="@string/text_title_settings_graphics" />
+    <EditTextPreference
+        android:defaultValue="3"
+        android:inputType="number"
+        android:key="fragments"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/text_settings_summary_fragments"
+        android:title="@string/text_settings_title_fragments" />
+    <PreferenceCategory android:title="@string/text_settings_category_multiplayer">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="multiplayer"
+            android:title="@string/text_settings_title_multiplayer" />
+    </PreferenceCategory>
+    <EditTextPreference
+        android:defaultValue="1"
+        android:inputType="number"
+        android:key="maxPlayers"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/text_settings_title_maxPlayers" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/typeConnection"
+        android:entryValues="@array/typeConnectionValues"
+        android:key="typeConnection"
+        android:title="@string/text_settings_title_typeconnection" />
+</PreferenceScreen>
