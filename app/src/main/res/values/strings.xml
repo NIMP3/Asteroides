@@ -19,4 +19,7 @@
     <string name="text_settings_title_multiplayer">Activar modo multijugador</string>
     <string name="text_settings_title_maxPlayers">Máximo de Jugadores</string>
     <string name="text_settings_title_typeconnection">Tipo de conexión</string>
+    <string name="text_button_scores">Puntuaciones</string>
+    <string name="title_score_activity">Puntuaciones</string>
+    <string name="score_value_text">115000</string>
 </resources>

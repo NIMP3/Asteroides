@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.GeneralOptionsActivity" />
-        <activity android:name=".view.SettingsActivity"></activity>
+        <activity android:name=".view.SettingsActivity" />
+        <activity android:name=".view.ScoresActivity"></activity>
     </application>
 
 </manifest>

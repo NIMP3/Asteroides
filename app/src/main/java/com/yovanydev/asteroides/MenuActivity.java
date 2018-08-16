@@ -11,10 +11,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.yovanydev.asteroides.model.RaitingStore;
+import com.yovanydev.asteroides.model.RaitingStoreArray;
 import com.yovanydev.asteroides.view.GeneralOptionsActivity;
+import com.yovanydev.asteroides.view.ScoresActivity;
 import com.yovanydev.asteroides.view.SettingsActivity;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener{
+
+    public static RaitingStore store = new RaitingStoreArray();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +53,14 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     /*----------------------------------------------------------------------------------------------
+    Lanzamos el Activity para la lista de Puntuaciones
+     */
+    public void launchScores() {
+        Intent intent = new Intent(this, ScoresActivity.class);
+        startActivity(intent);
+    }
+
+    /*----------------------------------------------------------------------------------------------
     Muestra las preferencias del usuario
     */
     public void showUserSettings() {
@@ -69,7 +82,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 launchOptions("ABOUT");
                 break;
             case R.id.btn_exit:
-                finish();
+                launchScores();
                 break;
             case R.id.btn_setup:
                 launchSettings();
